@@ -127,7 +127,7 @@ First = gg.isPackageInstalled("me.jagar.jokerantiban") if First == false then gg
 -- -- -- -- -- -- -- -- -- --Check open-- -- -- -- -- -- -- -- -- -- --
 HOME = 1
 function HOME(...)
-MN = gg.choice({"♻️           ترسيت سريع           ♻️","⁩⁦🛡️⁩قائمة حمايات لوبي سيرفرات『』","📂     قائمه الولهاك + الالوان     📂","📂         التفعيلات الامنه          📂","⁦⁩⁩📂        تفعيلات غير امنه         📂","📂         قائمه الهيدشوت          📂","📂      قائمه السيت سكوب        📂","📂          قائمه السرعه              📂","📂          خلطات SPIDER        📂","خروج من السكربت "}, nil, "╔─━━━━━━━━░░ 🇦🇪SPIDER 🇦🇪 ░░━━━━━━━━─╗\n                    \n                                      للتواصل : @Spider050    \n╚─━━━━━━━━░░ 🇦🇪SPIDER 🇦🇪░░━━━━━━━━─╝")
+MN = gg.choice({"♻️           ترسيت سريع           ♻️","⁩⁦🛡️⁩قائمة حمايات لوبي سيرفرات『』","『✔️ ثـبـات سـلاح 75 لوبي 『』","📂     قائمه الولهاك + الالوان     📂","📂         التفعيلات الامنه          📂","⁦⁩⁩📂        تفعيلات غير امنه         📂","📂         قائمه الهيدشوت          📂","📂      قائمه السيت سكوب        📂","📂          قائمه السرعه              📂","📂          خلطات SPIDER        📂","خروج من السكربت "}, nil, "╔─━━━━━━━━░░ 🇦🇪SPIDER 🇦🇪 ░░━━━━━━━━─╗\n                    \n                                      للتواصل : @Spider050    \n╚─━━━━━━━━░░ 🇦🇪SPIDER 🇦🇪░░━━━━━━━━─╝")
 if MN == nil then
 else
 if MN == 1 then
@@ -137,31 +137,53 @@ if MN == 2 then
 ABAN()
 end
 if MN == 3 then
-wlhack()
+thbatv2()
 end
 if MN == 4 then
-gam()
+wlhack()
 end
 if MN == 5 then
-gam2()
+gam()
 end
 if MN == 6 then
-DAHMHED()
+gam2()
 end
 if MN == 7 then
-standsco()
+DAHMHED()
 end
 if MN == 8 then
-speed()
+standsco()
 end
 if MN == 9 then
-DHADY()
+speed()
 end
 if MN == 10 then
+DHADY()
+end
+if MN == 11 then
 exit()
 end
 end
 PUBGMH = -1
+end
+
+function thbatv2()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_ANONYMOUS"])
+gg.searchNumber("1,348,759,109;1,953,067,887;1,634,692,166;1,920,287,604:512", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg.searchNumber("1,634,692,166", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](10)
+gg["editAll"]("0", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("2~4;1.09375;1;18;3.5::25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2~4;1.09375::5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2~4", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll("-0.5", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("⁦ثبات سلاح 75⁦")
 end
 
 function ABAN()
@@ -1171,7 +1193,7 @@ end
 
 
 function gam(...)
-JOK12 = gg.multiChoice({"🎯     هيدشوت 50٪    🎯","🎯   ثبات سلاح 75٪    🎯","➕     صليب صغير       ➕","🎥      منظور ايباد        🎥","🌲ازاله العشب + الاشجار🌱","⁦🌫️⁩      ازالة الضباب       ⁦🌫️⁩","🌌      سماء سوداء       🌌","🗼           انتينا            🗼","⁦⁦ رجوع "}, nil, "╔─━━━━━━━━░░ 🇦🇪SPIDER 🇦🇪 ░░━━━━━━━━─╗\n                    \n                                      للتواصل : @Spider050    \n╚─━━━━━━━━░░ 🇦🇪SPIDER 🇦🇪░░━━━━━━━━─╝")
+JOK12 = gg.multiChoice({"🎯     هيدشوت 50٪    🎯","🎯   هيدشوت 75٪    🎯","➕     صليب صغير       ➕","🎥      منظور ايباد        🎥","🌲ازاله العشب + الاشجار🌱","⁦🌫️⁩      ازالة الضباب       ⁦🌫️⁩","🌌      سماء سوداء       🌌","🗼           انتينا            🗼","⁦⁦ رجوع "}, nil, "╔─━━━━━━━━░░ 🇦🇪SPIDER 🇦🇪 ░░━━━━━━━━─╗\n                    \n                                      للتواصل : @Spider050    \n╚─━━━━━━━━░░ 🇦🇪SPIDER 🇦🇪░░━━━━━━━━─╝")
 if JOK12 == nil then
 else
 if JOK12[1] == true then
@@ -1669,7 +1691,7 @@ gg.toast("هيد تم")
 end
 
 function DAHMHED(...)
-HADY = gg.multiChoice({"☠️     خلطة الموت    ☠️","🤡     SHOT SPIDER    🤡","👹  هيد شوت  V2   👹"," ⚠️ زيادة دمج سلاح  ⚠️","⚠️   بلس هيد شوت  ⚠️","رجوع"}, nil, (os.date(" ╔─━━━━━━━━░░ 🇦🇪SPIDER 🇦🇪 ░░━━━━━━━━─╗\n               🇦🇪SPIDER 🇦🇪  \n                                      للتواصل : @Spider050   \n╚─━━━━━━━━░░ 🇦🇪SPIDER 🇦🇪░░━━━━━━━━─╝")))
+HADY = gg.multiChoice({"☠️     خلطة الموت    ☠️","🔥    SHOT SPIDER    🔥","👹  هيد شوت  V2   👹"," ⚠️ زيادة دمج سلاح  ⚠️","⚠️   بلس هيد شوت  ⚠️","رجوع"}, nil, (os.date(" ╔─━━━━━━━━░░ 🇦🇪SPIDER 🇦🇪 ░░━━━━━━━━─╗\n               🇦🇪SPIDER 🇦🇪  \n                                      للتواصل : @Spider050   \n╚─━━━━━━━━░░ 🇦🇪SPIDER 🇦🇪░░━━━━━━━━─╝")))
 if HADY == nil then
 else
 if HADY[1] == true then
